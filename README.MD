@@ -17,7 +17,7 @@ sudo mkdir /usr/share/plymouth/themes/dandelion-tea
 > 3. Copy `Rendered` & `Script` plymouth
 
 ```
-sudo cp * /usr/share/plymouth/themes/dandelion-tea/
+sudo cp dandelion-tea-rendered/* /usr/share/plymouth/themes/dandelion-tea/
 sudo cp script/* /usr/share/plymouth/themes/dandelion-tea/
 ```
 

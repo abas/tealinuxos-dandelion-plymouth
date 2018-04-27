@@ -20,7 +20,7 @@ echo ""
 echo "|--------------------------"
 echo "| copying asset...        |"
 echo "|--------------------------"
-sudo cp * /usr/share/plymouth/themes/dandelion-tea/
+sudo cp dandelion-tea-rendered/* /usr/share/plymouth/themes/dandelion-tea/
 sudo cp script/* /usr/share/plymouth/themes/dandelion-tea/
 echo "~"
 
