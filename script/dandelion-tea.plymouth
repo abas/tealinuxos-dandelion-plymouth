@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=dandelion-tea
+Description=DandelionTea
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/dandelion-tea
+ScriptFile=/usr/share/plymouth/themes/dandelion-tea/dandelion-tea.script
