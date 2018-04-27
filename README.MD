@@ -1,27 +1,27 @@
 # TeaLinuxOS X : Dandelion [plymouth]
 
 ## How to Install
-> Cloning Project
+> 1. Cloning Project
 
 ```
 git clone https://github.com/abas/tealinuxos-dandelion-plymouth.git
 cd tealinuxos-dandelion-plymouth
 ```
 
-> Create New `plymouth`
+> 2. Create New `plymouth`
 
 ```
 sudo mkdir /usr/share/plymouth/themes/dandelion-tea
 ```
 
-> Copy `Rendered` & `Script` plymouth
+> 3. Copy `Rendered` & `Script` plymouth
 
 ```
 sudo cp * /usr/share/plymouth/themes/dandelion-tea/
 sudo cp script/* /usr/share/plymouth/themes/dandelion-tea/
 ```
 
-> Configure `Default Plymouth`
+> 4. Configure `Default Plymouth`
 
 ```
 sudo nano /etc/alternatives/default.plymouth
@@ -39,21 +39,23 @@ ImageDir=/usr/share/plymouth/themes/dandelion-tea
 ScriptFile=/usr/share/plymouth/themes/dandelion-tea/dandelion-tea.script
 ```
 
-### Done~
+#### Done~
 
 ## Install with Wizard
 
-> Cloning First~
+> 1. Cloning First~
 
 ```
 git clone https://github.com/abas/tealinuxos-dandelion-plymouth.git
 cd tealinuxos-dandelion-plymouth
 ```
 
-> Run Wizard
+> 2. Run Wizard
 
 ```
 sudo sh run-wiz.sh
 ```
 
 for editing configuration, follow like step before~
+
+#### Done~
