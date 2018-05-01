@@ -59,3 +59,31 @@ sudo sh run-wiz.sh
 for editing configuration, follow like step before~
 
 #### Done~
+
+## Install with PPA
+
+You can update your system with unsupported packages from this untrusted PPA by adding ppa:tea-projects/softwares to your system's Software Sources.
+
+> 1. add ppa repository of `tea-project`
+
+```
+sudo add-apt-repository ppa:tea-projects/softwares
+sudo apt-get update
+```
+
+> install with apt-get
+
+```
+sudo apt install plymouth-theme-tealinuxos-dandelion-logo
+```
+
+then select the dandelio
+
+#### Done~
+
+
+> ### Contributor
+- Design Concept  : [Abas_](https://github.com/abas)
+- Animator        : [Bayu Grafit](https://github.com/Grafiters) 
+- Asset Maker     : [Ahmad Rizal](https://github.com/ahmadrizal1297) 
+- PPA/Packaging   : [M Nurul Irfan](https://github.com/mnirfan)  
