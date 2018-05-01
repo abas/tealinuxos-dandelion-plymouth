@@ -24,23 +24,18 @@ core_y = Window.GetHeight() - stem.image.GetHeight() + 15;
 core_d = 15;
 
 n_frame = 233;
-sprites=Sprite();
-
-sprites.SetX (Window.GetX() + Window.GetWidth()  / 2 - images[time].GetWidth()  / 2);
-sprites.SetY (Window.GetY() + Window.GetHeight() / 2 - images[time].GetHeight() / 2);
-
 
 for(i=1; i<=n_frame; i++ ){
 	images[i]=Image("dandelion-plymouth-"+i+".png");
-	sprites.SetOpacity (1);
-	sprites.SetImage(images[i]);
 }
+
+sprites=Sprite();
 
 time=1;
 fun refresh ()
 {
-# sprites.SetX (Window.GetX() + Window.GetWidth()  / 2 - images[time].GetWidth()  / 2);
-# sprites.SetY (Window.GetY() + Window.GetHeight() / 2 - images[time].GetHeight() / 2);
+ sprites.SetX (Window.GetX() + Window.GetWidth()  / 2 - images[time].GetWidth()  / 2);
+ sprites.SetY (Window.GetY() + Window.GetHeight() / 2 - images[time].GetHeight() / 2);
  sprites.SetOpacity (1);
  sprites.SetImage(images[time]);
  time++;
