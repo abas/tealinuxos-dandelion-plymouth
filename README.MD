@@ -77,13 +77,13 @@ sudo apt-get update
 sudo apt install plymouth-theme-tealinuxos-dandelion-logo
 ```
 
-then select the dandelio
+then select the dandelion
 
 #### Done~
 
 
 > ### Contributor
 - Design Concept  : [Abas_](https://github.com/abas)
-- Animator        : [Bayu Grafit](https://github.com/Grafiters) 
+- Animator        : [Grafiters](https://github.com/Grafiters) 
 - Asset Maker     : [Ahmad Rizal](https://github.com/ahmadrizal1297) 
 - PPA/Packaging   : [M Nurul Irfan](https://github.com/mnirfan)  
